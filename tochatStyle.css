@@ -1,0 +1,136 @@
+body{
+  /* background-image: url("bgs2.png");
+  background-repeat: repeat; */
+  background-color: #cccccc;
+  
+}
+img
+{
+	font-size:2vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	
+}
+.topbtn{
+	font-size:1.0vw;
+	display: block;
+	position:absolute;
+	margin:-34.5% 1em 1em 32%;
+	width: 34%;
+	height: 40px;
+	border-bottom: 5px solid steelblue;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background: linear-gradient(#5FDDFF,#53ADDF);
+	color: white;
+	border-radius: 10px;
+	box-shadow: 0px 2px 20px grey;
+	transition: 150ms ease;
+	font-weight: bold;
+}
+section{
+	font-size:100%;
+	padding: .5%;
+	
+	position: absolute;
+	height:38%;
+	width: 32.6%;
+	border: 4px solid #c51325; 
+	border-radius:2em;
+	margin:-33% 2em 2em 32%;
+
+}
+section{
+  /* -ms-overflow-style: none; */ /* for Internet Explorer, Edge */
+  /* scrollbar-width: none; */ /* for Firefox */
+  overflow: scroll; 
+}
+
+section::-webkit-scrollbar {
+  /* display: none; */ /* for Chrome, Safari, and Opera */
+}
+
+/* other styling */
+section{
+  /* border: solid 5px black;
+  border-radius: 5px;
+  height: 300px;
+  padding: 10px;
+  width: 200px; */
+}
+
+* {
+  /* background-color: #EAF0F6;
+  color: #2D3E50;
+  font-family: 'Avenir';
+  font-size: 26px;
+  font-weight: bold; */
+}
+formtochat{
+	/* margin:56% 3em 3em 44%; */
+}
+
+.textAreaInput{
+	font-size:1.2vw;
+	padding:0% 0%;
+	position: absolute;
+	margin:-10.7% 3em 3em 32.5%;
+}
+
+.button1
+{
+  font-size:1.0vw;
+  display: block;
+  position:absolute;
+  margin:-8% 1em 1em 34%;
+  width: 7%;
+  height: 40px;
+  border-bottom: 5px solid steelblue;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: linear-gradient(#5FDDFF,#53ADDF);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px grey;
+  transition: 150ms ease;
+  font-weight: bold;
+  
+  
+}
+
+.button1:active{
+  border: none;
+  border-bottom: 2px solid steelblue;
+  box-shadow: 0px 1px 5px grey;
+  background: linear-gradient(#53AFFF,#5FCDFF);
+  color: #FFF;
+}
+.exitSalon{
+	font-size:1vw;
+  display: block;
+  position:absolute;
+  margin:-8% 1em 1em 42%;
+  width: 7%;
+  height: 40px;
+  border-bottom: 5px solid steelblue;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: linear-gradient(#5FDDFF,#53ADDF);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px grey;
+  transition: 150ms ease;
+  font-weight: bold;
+}
+.exitSalon:active{
+	border: none;
+  border-bottom: 2px solid steelblue;
+  box-shadow: 0px 1px 5px grey;
+  background: linear-gradient(#53AFFF,#5FCDFF);
+  color: #FFF;
+}
